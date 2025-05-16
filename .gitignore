@@ -1,0 +1,16 @@
+# Ignorar entorno virtual
+entorno_chido/
+
+# Archivos de Python
+*.pyc
+__pycache__/
+
+# Archivos de sistema
+.DS_Store
+
+# Base de datos local
+proyecto/db.sqlite3
+
+# Opcional: ignorar migraciones compiladas
+proyecto/**/migrations/*.pyc
+proyecto/**/migrations/__pycache__/

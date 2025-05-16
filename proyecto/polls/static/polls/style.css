@@ -1,0 +1,10 @@
+li a {
+    color: rgb(0, 0, 0);
+    font-size:  45px; /* Cambiá este número según el tamaño que quieras */
+    font-weight: bold; /* Opcional, para que se vean más marcadas */
+}
+
+body {
+    background: white url("images/giorno.jpg") no-repeat center center fixed;
+    background-size: cover;
+}

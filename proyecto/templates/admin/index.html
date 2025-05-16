@@ -1,0 +1,14 @@
+{% extends "admin/base_site.html" %}
+{% load i18n %}
+
+{% block content %}
+  <h1>¡Bienvenido al panel de administración de Encuestas!</h1>
+
+  <div class="app-list">
+    <h2>Administrar contenido:</h2>
+    <ul>
+      <li><a href="{% url 'admin:polls_question_changelist' %}">Preguntas</a></li>
+      <li><a href="{% url 'admin:polls_choice_changelist' %}">Opciones de respuesta</a></li>
+    </ul>
+  </div>
+{% endblock %}
