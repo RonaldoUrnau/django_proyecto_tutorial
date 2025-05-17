@@ -13,7 +13,7 @@ Incluye:
 
 Cloná el repositorio con:
 
-git clone https://github.com/tu_usuario/tu_repo.git  
+git clone https://github.com/RonaldoUrnau/django_proyecto_tutorial
 cd tu_repo
 
 Creá un entorno virtual:
@@ -22,7 +22,7 @@ python -m venv entorno_chido
 
 Activá el entorno virtual (en Windows):
 
-.\entorno_chido\Scriptsctivate
+.\entorno_chido\Scripts\activate
 
 O en Linux/macOS:
 
