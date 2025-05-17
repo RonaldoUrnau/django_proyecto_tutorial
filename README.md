@@ -14,7 +14,7 @@ Incluye:
 Cloná el repositorio con:
 
 git clone https://github.com/RonaldoUrnau/django_proyecto_tutorial
-cd tu_repo
+cd django_proyecto_tutorial
 
 Creá un entorno virtual:
 
