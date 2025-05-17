@@ -1,0 +1,69 @@
+# 🐍 Proyecto Django: Encuestas
+
+Este es un pequeño proyecto desarrollado con **Django** como parte de un tutorial y aprendizaje personal.
+
+Incluye:  
+- Una app llamada `polls` para crear y votar en encuestas.  
+- Personalización del panel de administración.  
+- Uso de un entorno virtual (`entorno_chido`).
+
+---
+
+## 🚀 Cómo ejecutar el proyecto
+
+Cloná el repositorio con:
+
+git clone https://github.com/tu_usuario/tu_repo.git  
+cd tu_repo
+
+Creá un entorno virtual:
+
+python -m venv entorno_chido
+
+Activá el entorno virtual (en Windows):
+
+.\entorno_chido\Scriptsctivate
+
+O en Linux/macOS:
+
+source entorno_chido/bin/activate
+
+Instalá las dependencias con:
+
+pip install -r requirements.txt
+
+Aplicá las migraciones y ejecutá el servidor:
+
+python manage.py migrate  
+python manage.py runserver
+
+---
+
+## 🗂️ Estructura del proyecto
+
+proyecto/  
+├── mysite/          # Configuración general del proyecto  
+├── polls/           # App principal  
+├── templates/       # Personalización del admin  
+├── db.sqlite3       # Base de datos (SQLite)  
+└── manage.py
+
+---
+
+## 🛠️ Recomendaciones
+
+No subas el entorno virtual (`entorno_chido/`). Usá `.gitignore` para evitar archivos innecesarios. Si agregás librerías nuevas, actualizá `requirements.txt` con:
+
+pip freeze > requirements.txt
+
+---
+
+## 📸 Demo (opcional)
+
+Podés agregar capturas de pantalla del panel de administración o de las encuestas aquí.
+
+---
+
+## 📄 Licencia
+
+Este proyecto es solo para fines educativos y personales.
