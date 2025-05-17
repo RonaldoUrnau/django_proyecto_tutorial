@@ -47,23 +47,3 @@ proyecto/
 ├── templates/       # Personalización del admin  
 ├── db.sqlite3       # Base de datos (SQLite)  
 └── manage.py
-
----
-
-## 🛠️ Recomendaciones
-
-No subas el entorno virtual (`entorno_chido/`). Usá `.gitignore` para evitar archivos innecesarios. Si agregás librerías nuevas, actualizá `requirements.txt` con:
-
-pip freeze > requirements.txt
-
----
-
-## 📸 Demo (opcional)
-
-Podés agregar capturas de pantalla del panel de administración o de las encuestas aquí.
-
----
-
-## 📄 Licencia
-
-Este proyecto es solo para fines educativos y personales.
